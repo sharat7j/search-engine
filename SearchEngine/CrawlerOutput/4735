@@ -1,0 +1,162 @@
+Using the Database - IP Address Lookup - Community Geotarget IP Addresses Project 
+
+  
+  
+  
+
+  
+   
+   
+
+ 
+   
+   
+
+ 
+ 
+ 
+    My IP Address Lookup and GeoTargeting Community Geotarget IP Project Ð what country, city IP addresses map to 
+ 
+
+ 
+ 
+          IP Address Lookup  
+          API Ê 
+          Data  
+          Contribute  
+				  Forum  
+          FAQ  
+          About  
+				  Ecommerce  
+ 
+ 
+ 
+ 
+	 
+  
+    
+		 Using the IP Addresses database - IP Address Lookup 
+		 
+		If you're going to be doing a lot of Geotargeting or IP Address Lookups, please take a feed instead which will preserve both our bandwidth and your bandwidth. 
+		 
+	 
+	 
+                 
+                Your IP Address: 65.46.142.190 
+                 
+                UNITED STATES 
+                IP found in 0.0015 seconds  
+                Is this wrong?  Make a correction  
+                Are you a host?  Netblock upload   
+                 
+	 
+ 
+ 
+	 
+		 
+		 Simple GET 
+		That said, there is an easy HTTP oriented API to locate IP addresses and Geocode them. If you don't supply the "?ip=aa.bb.cc.dd" bit, then the ip address lookup of the calling machine will be located instead (here, the aa,bb,cc,dd are decimal digits). If you add &position=true to the end of the URL then latitude and longitude will be returned also. Both HTML and XML formats are supplied for your convenience. 
+		  
+http://api.hostip.info/country.php
+  US
+
+http://api.hostip.info/get_html.php?ip=12.215.42.19
+  Country: UNITED STATES (US)
+  City: Sugar Grove, IL
+	IP: 12.215.42.19
+
+http://api.hostip.info/get_html.php?ip=12.215.42.19&position=true
+  Country: UNITED STATES (US)
+  City: Sugar Grove, IL
+  Latitude: 41.7696
+  Longitude: -88.4588
+	IP: 12.215.42.19
+
+http://api.hostip.info/?ip=12.215.42.19
+  [use the URL above for an example - XML too long to paste below]
+		  
+
+		 Country Flag 
+		Paste the following code into your HTML to get a country flag of the ip address. The database is significantly more accurate (it ought to be 100%) for countries than for cities. It would be nice if y'all would make the flag a link to the www.hostip.info home page (http://www.hostip.info/) so they can come by if they're interested - it'll only benefit you in the long run.  After all, the results get more accurate as more visitors submit their IP addresses!
+		  
+
+		Flag of visitor's location:
+		  
+<A HREF="http://www.hostip.info">
+ <IMG SRC="http://api.hostip.info/flag.php" BORDER="0" ALT="IP Address Lookup">
+</A>
+		  
+
+		Flag of any IP address:
+		  
+<A HREF="http://www.hostip.info">
+ <IMG SRC="http://api.hostip.info/flag.php?ip=12.215.42.19" ALT="IP Address Lookup">
+</A>
+		  
+
+
+
+		Quality outside resource to check out (also using this technology):
+			 Movie Reviews  - Thousands Of Quality Movie Reviews 
+
+		 *NIX Shell Script 
+		You can use the following shell script to call in your favorite *NIX environment.
+		  
+ #!/bin/tcsh -f
+lynx -dump "http://api.hostip.info/get_html.php?ip=$1"
+		  
+
+		 Testing your API calls 
+		If you're looking to test your API calls through various, worldwide IP addresses you can try a proxy service like  wonderproxy.com .  Simply configure your browser to use the proxy and your IP address will appear as the proxy's instead of your own. 
+
+		 Commercial Geodatabase 
+		 
+    	 MaxMind  -
+      If you're looking for a commercial option, this database maintains a great level of accuracy.
+     
+
+		 Some related sites 
+		If you need some examples, here are some sites that use us (or have at some point). 
+		 
+			 Online Encyclopedia  - Updated Crystal Reference Encyclopedia 
+			 Nations Encyclopedia  - Detailed resource of World Nations 
+			 Musician Guide  - biographies of famous musicians 
+			 Abstracts  - Thousands of Citations and Abstracts on Various Subjects 
+			 Medicare Providers  
+			 Nursing Homes  
+			 State Universities  - Directory of State Universities 
+		 
+
+		 
+	 
+ 
+ 
+ 
+
+   
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+	 
+		 Site Search Engine 
+	 
+ 
+ 
+	    
+	 
+		 
+	 
+	 
+		 
+	 
+ 
+ 
+ 
+
+
+ Licensed under the  GPL

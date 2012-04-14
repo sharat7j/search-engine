@@ -1,0 +1,595 @@
+Mathematical Induction 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+  
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ Manifesto 
+
+Ê|Ê
+
+
+
+ Index 
+
+Ê|Ê
+ What's new 
+
+Ê|Ê
+ rss feed  
+
+Ê|Ê
+ Bookmark 
+
+Ê|Ê
+
+    
+Ê|Ê
+
+Follow us    
+
+
+Ê|Ê
+ Recommend 
+
+Ê|Ê
+ Contact 
+
+Ê|Ê
+
+
+  
+
+
+  
+
+ 
+
+ 
+
+
+
+    
+
+ Mathematical Induction 
+
+ Mathematical Induction (MI) is an extremely important tool in Mathematics. 
+
+ First of all you should never confuse MI with Inductive Attitude in Science. The latter is just a process of establishing general principles from particular cases. 
+
+ MI is a way of proving math statements for all integers (perhaps excluding a finite number) [1] says: 
+
+ Statements proved by math induction all depend on an integer, say, n. For example,  
+
+ 
+(1) 1 + 3 + 5 + ... + (2n - 1) = n 2  
+(2) If x 1 , x 2 , ..., x n  > 0 then (x 1  + x 2  + ... + x n )/n ³ (x 1 áx 2 á...áx n ) 1/n 
+ 
+
+ etc. n here is an "arbitrary" integer. 
+
+ It's convenient to talk about a statement P(n). For (1), P(1) says that  1 = 1 2   which is incidently true. P(2) says that  1 + 3 = 2 2  , P(3) means that  1 + 3 + 5 = 3 2  . And so on. These particular cases are obtained by substituting specific values 1, 2, 3 for n into P(n). 
+
+ Assume you want to prove that for some statement P, P(n) is true for all n starting with  n = 1.  The Principle (or  Axiom ) of Math Induction states that, to this end, one should accomplish just two steps: 
+
+ 
+ Prove that P(1) is true.
+ Assume that P(k) is true for some k. Derive from here that P(k+1) is also true.
+ 
+
+ The idea of MI is that a finite number of steps may be needed to prove an infinite number of statements P(1), P(2), P(3), ....  
+
+ Let's prove (1). We already saw that P(1) is true. Assume that, for an arbitrary k, P(k) is also
+true, i.e.  1 + 3 + ... + (2k-1) = k 2 .  Let's derive P(k+1) from this assumption. We have 
+
+   
+ 1 + 3 + ... + (2k-1) + (2k+1)   =  [1 + 3 + ... + (2k-1)] + (2k+1)   
+  Ê  = k 2  + (2k+1)  
+  Ê  = (k+1) 2   
+   
+
+ Which exactly means that P(k+1) holds. (For  2k+1 = 2(k+1)-1. ) Therefore, P(n) is true for all n starting with 1. 
+
+ Intuitively, the inductive (second) step allows one to say, look P(1) is true and implies P(2). Therefore P(2) is true. But P(2) implies P(3). Therefore P(3) is true which implies P(4) and so on. Math induction is just a shortcut that
+collapses an infinite number of such steps into the two above. 
+
+ In Science, inductive attitude would be to check a few first statements, say, P(1), P(2), P(3), P(4), and then assert that P(n) holds for all n. The inductive step "P(k) implies  P(k + 1)"  is missing. Needless to say nothing can be proved this way. 
+
+ Remark 
+ 
+ Often it's impractical to start with  n = 1.  MI applies with any starting integer n 0 .
+The result is then proved for all n from n 0  on.
+
+  Sometimes, instead of 2., one assumes 2': 
+
+ 
+Assume that P(m) is true for all  m < (k + 1). 
+ 
+
+ Derive from here that P(k+1) is also true. The two approaches are equivalent, because one may consnider a statement Q:  Q(n) = P(1) and P(2) and ... and P(n) , so that Q(n) is true iff P(1), P(2), ..., P(n) are all true. 
+ 
+
+ This variant goes by the name of Complete Induction or Strong Induction. 
+
+ In problem solving, mathematical induction is not only a means of proving an existing formula, but also a powerful methodology for finding such formulas in the first place. When used in this manner MI shows to be an outgrowth of (scientific) inductive reasoning - making on conjectures on the basis of a finite set of observations. 
+
+ There are other examples proved by MI: 
+ 
+  A 1-1 correspondence 
+  A Low Bound for 1/2 * 3/4 * 5/6 * ... * (2n-1)/2n 
+  A Problem of Divisibility by 5 n  
+  A Problem of Satisfying Inequalities 
+  A Proof by Game for a Sum of a Convergent Series 
+  A Property of the fusc() Function 
+  All Powers of x are Constant 
+  An Equation in Reciprocals 
+  An Extension of van Schooten's Theorem 
+  An Inequality for Grade 8 
+  An infinite exponent 
+  Another pigeonhole problem 
+  Binary Euclid's algorithm 
+  Book Index Range 
+  Breaking Chocolate Bars 
+  Chinese Remainder Theorem 
+  Committee Chairs 
+  Constructible Numbers 
+  Construction Problem 
+  Factorial Products 
+  Continued Fractions 
+  Counting Triangles 
+  Counting Triangles II 
+  Cutting Squares 
+  Diagonal Count 
+  Difference of the Cantor Sets 
+  Diophantine Quadratic Equation in Three Variables 
+  Euclid's Algorithm 
+  Farey series 
+  Fermat's Little Theorem 
+  Fractions on a Binary Tree II 
+  Four Weighings Suffice 
+  Geometric Illustration of a Convergent Series 
+  Golden Ratio is Irrational 
+  Golomb's inductive proof of a tromino theorem 
+  Groups of Permutations 
+  Guessing Two Consecutive Integers 
+  Hamming and Levenshtein distance functions 
+  Helly's Theorem 
+  Inequality 1/2á3/4á5/6á ... á99/100 < 1/10 
+  Inequality  (1 + 1 -3 )(1 + 2 -3 )(1 + 2 -3 )...(1 + n -3 ) < 3  
+  Inequality 1 + 2 -2  + 3 -2  + 4 -2  + ... + n -2  < 2 
+  Inequality between arithmetic and geometric means 
+  Inequality of a Series of Square Roots 
+  Infinite Latin Squares 
+  Infinitude of Primes Via Fermat Numbers 
+  Infinitude of Primes Via Lower Bounds 
+  Infinitude of Primes Via *-Sets 
+  Integers and Rectangles: a Proof by Induction 
+  Integral Domains: Remarks and Examples 
+  Josephus problem 
+  Linear Functions 
+  Many Jugs  to One II 
+  Marriage Problem 
+  Mathematical Induction 
+  Mathematicians Doze Off 
+  Morley's Pursuit of Incidence 
+  Nested Radicals 
+  Nontrivial Ramsey numbers R(m, n) exist for all natural n and m 
+  Numbers That Divide the Others' Sum 
+  Pennies in Boxes 
+  Pigeonhole problem 
+  Pigeonhole principle complements math induction 
+  Poncelet Theorem 
+  Prim's and Kruskal's algorithms find a minimum spanning tree 
+  Problem on an Infinite Checkerboard 
+  Property of irriducible fractions on the Stern-Brocot tree 
+  Property of the Powers of 2 
+  Ramsey's Numbers 
+  Rabbits Reproduce; Integers Don't 
+  Right Replacement 
+  Sierpinski Gasket 
+  Sierpinski Gasket and Tower of Hanoi 
+  Simple Cellular Automaton 
+  Solitaire on the Circle 
+  Splitting piles 
+  Stern-Brocot Tree 
+  Stern-Brocot Tree II  
+  Strange Integers: Divisors and Primes 
+  Subsets and Intersections 
+  The Somos sequences 
+  Three Jugs - Equal Amounts 
+  Tromino Puzzle: Deficient Squares 
+  Two Color Coloring of the Plane 
+  The union of a finite number of cycles of a connected (di)graph is a cycle. 
+  Ways To Count 
+ 
+ Reference 
+ 
+ D. Fomin, S. Genkin, I. Itenberg,  Mathematical Circles (Russian Experience) , AMS, 1996
+ R. Graham, D. Knuth, O. Patashnik,  Concrete Mathematics , 2nd edition, Addison-Wesley, 1994.
+ R.Courant and H.Robbins,  What is Mathematics? , Oxford University Press, 1996
+ 
+
+ On the Web 
+ 
+  An online and iPod video  by Julio de la Yncera
+ 
+
+    
+ 
+ |Contact| 
+ |Front page| 
+ |Contents| 
+ |Algebra| 
+ |Store| 
+ 
+ Ê  Ê   
+
+Copyright © 1996-2011  Alexander Bogomolny 
+    
+
+    Ê  40233840    
+ 
+ 
+
+ 
+
+
+
+  
+  
+
+
+  
+
+  
+ 
+
+
+  
+
+
+
+
+  
+
+  
+
+
+
+  
+  
+
+
+
+
+
+  
+  
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+  
+   
+  
+  
+  
+Search:
+  
+  
+ 
+   All Products 
+   Apparel 
+   Baby 
+   Beauty 
+   Books 
+   DVD 
+   Electronics 
+   Home & Garden 
+   Gourmet Food 
+   Personal Care 
+   Jewelry & Watches 
+   Housewares 
+   Magazines 
+   Musical Instruments 
+   Music 
+   Computers 
+   Camera & Photo 
+   Software 
+   Sports & Outdoors 
+   Tools & Hardware 
+   Toys & Games 
+   VHS 
+   Computer Games 
+   Cell Phones 
+    
+  
+  
+Keywords:
+  
+  
+   
+ 
+  
+  
+   
+  
+ 
+ 
+
+
+
+
+
+
+
+ 
+ 
+  
+
+
+Google
+
+
+ 
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+  
+Web
+ 
+ 
+  
+CTK
+ 
+ 
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+ 
+
+
+
+
+  
+  
+  
+
+
+
+ 
+Supported by 
+  
+ 
+
+
+
+ 
+
+ 
+   
+
+   
+
+
+
+
+
+
+
+
+
+ Sites for teachers  
+ Sites for parents  
+
+ 
+Terms of use  
+ 
+Awards  
+
+ Interactive Activities   
+
+ CTK Exchange  
+
+ CTK Wiki Math  
+
+ CTK Insights - a blog  
+ Math Help  
+
+
+
+ 
+Games & Puzzles  
+
+ 
+What Is What  
+
+ 
+Arithmetic  
+
+ 
+Algebra  
+
+ Geometry  
+
+ 
+Probability  
+
+ Outline Mathematics  
+
+ Make an Identity  
+
+ Book Reviews  
+
+ Stories for Young  
+
+ Eye Opener  
+
+ Analog Gadgets  
+
+ Inventor's Paradox  
+
+ Did you know?...  
+
+ 
+Proofs  
+
+ 
+Math as Language  
+
+ Things Impossible  
+
+ Visual Illusions  
+
+ 
+My Logo  
+
+ 
+Math Poll  
+
+ 
+Cut The Knot!  
+
+ MSET99 Talk  
+
+ Old and nice bookstore  
+
+ 
+Other Math sites  
+
+ 
+Front Page  
+
+ 
+Movie shortcuts  
+
+ 
+Personal info  
+
+ 
+Privacy Policy   
+
+ 
+Guest book  
+
+ 
+News sites   
+
+ 
+Recommend this site   
+
+ Sites for parents   
+
+
+
+
+ 
+    
+  
+
+ Education & Parenting 
+
+    
+
+
+  
+
+  
+  
+
+
+
+   
+
+
+
+
+ 
+
+ 
+ 
+
+  
+  
+
+ 
+
+ 
+
+ 
+ ÊÊ 
+ 
+
+
+
+
+
+
+  
+  
+
+ 
+
+
+ 
+
+
+
+ Ê 
+ Ê 
+ Ê 
+ Ê 
+ Ê 
+ Ê 
+ Ê 
+ Ê 
+ Ê 
+ Ê 
+ Ê

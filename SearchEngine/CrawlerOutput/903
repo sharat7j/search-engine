@@ -1,0 +1,577 @@
+Algebra Review in Ten Lessons 
+   
+   
+   
+   
+   
+ 
+ 
+
+ 
+ 
+					
+					  
+					 
+					  A Note on the Retirement of D. P. Story  
+				 
+					 Last Update: 02/03/2007 
+				 The usual navigation system is out, so here are direct links to the tutorial files. 
+				 
+					 
+						 
+							 
+								Main Menu (PDF):  mpt_menu.pdf   
+						 
+					 
+					 
+						 
+							 
+									  lesson01.pdf  : Setting up the environment 
+									  lesson02.pdf   : Radical and Exponents 
+									  lesson03.pdf   : Basic Algebra, Part I 
+								  lesson04.pdf   : Basic Algebra, Part IU 
+								  lesson05.pdf   : Expansion 
+							 
+						 
+						 
+							 
+								  lesson06.pdf   : Dividing and Factoring Polynomials 
+								  lesson07.pdf   : Solving Equations and Inequalities 
+								  lesson08.pdf  : Cartesian Coordinate System & Functions 
+								  lesson09.pdf  : Functions (cont.) & First Degree Curves 
+								  lesson10.pdf  : Some Second Degree & Trig Curves 
+							 
+						 
+					 
+					 
+						
+					 
+					 
+						
+					 
+				 
+				  
+			 
+
+ 
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+						  
+ 
+			
+		 
+ 
+			  
+   
+     
+								 
+									 
+								 
+							 
+     
+								 
+									 
+									  What's New  
+							 
+     
+								 
+									 
+								 
+							 
+   
+  
+			 
+					 
+						 
+							 
+								    
+								 Get the Latest version of 
+									Acrobat Reader 5.0. Click on the
+Get Acrobat Icon above to go to
+    the download area. 
+								   
+								   
+								 Use Netscape!  
+								   
+							 
+							 
+								 This is the review of Algebra in 10 lessons written in TeX
+    and converted to the Adobe Portable Document Format (PDF). Features
+    include verbose discussion of topics, typeset quality
+    mathematics, user interactivity in the form of multiple choice
+    quizzes, in-line examples and exercises with complete solutions,
+    and pop-up graphics. 
+								 These tutorials are viewed in the PDF format. This requires
+    that you have Acrobat Reader 3.0 or greater, which you can obtain
+    by clicking on the Get Adobe Reader icon. The tutorial
+    will not function correctly unless you have Version
+    3.0. or greater. 
+								 This might be a good time to update to the latest version
+    of the Reader, version 5.0. 
+								 If you are a first time user, be sure to check out the section
+    entitled  Important Components  and the
+    section Important Information directly
+    below it before you  start Algebra Review .
+							 
+						 
+						 
+							 
+        
+							 
+      
+						 
+						 
+							 Important   
+								Components 
+							 Important!   
+								
+    You also need a graphics viewer for viewing certain `.tiff' files.
+    See Components Needed for Browser, below. 
+						 
+						 
+							 
+      
+							 
+      
+						 
+						 
+							 Important    
+								Information 
+							 
+								 Important Information.  
+								 
+									  Components Needed for Browser  
+									  Tools Used  
+									  What's New 
+									 Other Tutorial Available at this site.
+									 
+										  e-Calculus , "the"
+        Calculus I tutorial 
+									 
+									  Acknowledgments 
+									  Awards! 
+									  Why? 
+									  Site Map  
+									  Downloading to a local disk and Mirroring.  
+									  Advertisement . Like what
+      you see here? Want others to know about the Algebra Review? Why
+      not download my  advertisement flyer ,
+      print it, and post it in your favorite location where Algebra
+      students congregate..
+
+								 
+							 
+						 
+						 
+							 
+        
+							 
+      
+						 
+						 
+							 
+     Start! 
+							 
+								 Ready to Start? Click on  Review
+    Algebra  
+								 Don't forget to sign the  Guestbook 
+    after you browse the site, or after you begin your study! Note: Signing
+    the guestbook is not required.
+							 
+						 
+						 
+							 
+      
+							 
+      
+						 
+						 
+							 
+      
+							 
+     Visitors since 7/7/97:   
+ 
+ 
+								 
+									 
+										 
+         10,000 visitors 7/8/98 
+										 
+         60,000 visitors 1/15/2000 
+									 
+									 
+										 
+         20,000 visitors 2/23/99 
+										 
+        70,000 visitors 3/2/2000 
+									 
+									 
+										 
+         30,000 visitors 7/4/99 
+										 
+        80,000 visitors 4/14/2000 
+									 
+									 
+										 
+         40,000 visitors 10/13/99 
+										 
+        150,000 visitors 6/10/2001 
+									 
+									 
+										 
+         50,000 visitors 12/1/99 
+										 
+          
+									 
+								 
+							 
+						 
+						 
+							 
+      
+							 
+      
+						 
+						 
+							 
+      
+							 Send comments, criticisms, witticisms, footnotes
+    and remarks to   
+								e-mail:  DPStory@Uakron.edu  
+ 
+								homepage:  D.
+    P. Story   
+						 
+					 
+			 
+			    
+			  
+   
+     
+     Awards!  
+     
+           
+   
+  
+
+       
+
+  
+   
+     
+     Why?  
+     
+       
+     
+     Why? Is a good question to ask. This review of (high
+    school) algebra in 10 lessons is designed to prepare students
+    entering The University of Akron for our Math Placement Exam
+    II. The mark received on this test determines the starting point
+    in mathematics at our university. Reasons for and uses of this
+    tutorial are given in the opening menu.  
+   
+  
+
+       
+
+   
+   
+     
+     Tools Used:   
+     
+    Let me describe the tools used to develop the tutorials.  
+   
+   
+
+  
+   
+     
+     AMS-TeX  
+ 
+    version 2.1:   
+       
+     
+     
+       Why TeX and why AMS-TeX? The goal of the tutorials was to
+      have textbook quality typesetting. AMS-TeX has a broad collection
+      of mathematical typesetting macros that makes life easy. I did
+      not use LaTeX. Plain TeX combined with AMS-TeX gave me the ability
+      to write highly specialized formatting macros without being forced
+      into a finite collection of packaged formats. 
+     
+ 
+   
+  
+
+  
+   
+     
+    TeX Compiler   
+    and Previewer  
+     
+     
+       Some of the goals of these tutorials were to have color
+      fonts, hypertext link capabilities for cross-referencing
+      as well as textbook quality typesetting. After looking around
+      for what was available (freeware, shareware, and payware), I
+      settled on the  Y&Y TeX System .
+      This was the only system that had all the stated features---and
+      then some. 
+       I found that the people at Y&Y were extremely cooperative.
+      They worked with me and added in some additional features that
+      I argued were important and needed. Without their help the initial
+      phase of the project could not have progressed nearly as fast
+      as it did. 
+       As a consequence of the high quality of the Y&Y product,
+      I have been able to develop on-line tutorials in Calculus
+      and Algebra that have a high degree of interactivity (also
+      one of the goals of the project). On my  Department's 
+      local network, students used the  DVIWindo 
+      to view the tutorials. 
+       One of the problems with the concept of an on-line tutorial
+      was that the students had to come into the computer labs to read
+      the tutorial. Early on, students asked me if the tutorials were
+      available over the `net; my answer, an emphatic: "No!" 
+       Fortunately, the people of Y&Y anticipated the directions
+      of TeX publication. They had already begun to work on the problem
+      of porting PostScript files produced by their TeX compiler to
+      the Portable Document Format of Adobe. This again made it very,
+      very easy to move portions of the tutorial to the net. See the
+      next point. 
+     
+ 
+   
+  
+
+  
+   
+     
+     Acrobat
+    3.0   
+     by
+    Adobe   
+     
+     
+       Given that the basic goals of the project are still valid,
+      the natural choice of document format was PDF. Y&Y's  DVIPSONE  automatically
+      converts the hypertext links within the dvi file to pdfmarks.
+      Hence, converting from dvi to pdf was a painless (almost) task.
+      Within DVIWindo, we print the dvi file to Adobe's Distiller
+      Assistant. The Assistant calls the Distiller to convert the file
+      to the pdf format. A one-step process! 
+       Some of the interactivity is lost however. As I learn more
+      about Acrobat and it's capabilities, perhaps all the tricks that
+      I used for the dvi files can eventually be ported to the pdf
+      format. 
+       Of course, a pdf file can be read on most any platform using
+      the free  Adobe
+      Acrobat Reader.  
+     
+ 
+   
+  
+
+  
+   
+     
+     PSTricks  
+     
+    In the tutorial Algebra Review in Ten Lessons, I've begun
+    using PSTricks by Timothy van Zandt. This TeX macro
+    package unleashes the power of postscript within a TeX document.
+    I used PSTricks to create the Algebra Review logo
+    and the many graphs that appear in Lessons 9 and 10.  
+   
+  
+
+   Configuring
+your Browser    
+
+  
+   
+     
+    Graphics Viewers:   
+     
+     I utilize graphic files in the tiff format for two
+    purposes: (1) To display graphs and pictures that illustrate
+    the points under discussion, and (2) To display messages to the
+    user---this is used for the interactivity part of the tutorial. 
+
+     You need a (external) helper application for viewing these
+    tiff files.  
+
+     
+       Windows 95. The one I
+      use for my Windows 95 based system is a free viewer
+      that extends quikview.exe, a program that comes with the
+      operating system. The file you want is called  ImgView.
+       It is freely available from  PCMag 
+      from their  Downloads
+      Homepage . Download ImgView and install it. (Be sure
+      to install the tiff viewer.) Configure your browser to
+      use quikview, which is located in c:\windows\system\viewers
+      subdirectory, as the helper application to use with viewing tiff
+      files. (Note: If you do not have the quikview.exe, you
+      can  download
+      it  from Microsoft; or, if not found at that Url (due
+      to reindexing of the site), go to the  Microsoft 
+      homepage and search on the key word "quickview".
+       Windows 3.x. I recommend
+       ACDSee16 .
+      Configure your (Netscape) browser to use ACDSee16 as a helper
+      application when viewing tiff files. 
+     
+ 
+   
+  
+
+       
+
+  
+   
+     
+     What's New!  
+     
+     
+       (1/31/98) Uploaded  a_qbn1j.pdf .
+      This new version of Algeboard, which uses  Acrobat
+      Forms 3.5,  uses Javascript programming to keep score as you
+      answer the questions. You must have installed  Acrobat
+      Forms 3.5  for the games to work properly. Report any bugs
+      in the programming to me please.
+       (12/1/97) Uploaded  a_qbn1.pdf ,
+      Algeboard, the Algebra Quiz Board Game.
+       Uploaded  maintut.pdf  with
+      new action button on it. Check it out!
+       (10/6/97) Installed Guestbook script. Forms available
+      in html format and pdf format (see  mainmenu.pdf )
+       (9/6/97) Uploaded Lesson 10 --- DONE!
+      ! ! ! For Now
+       (8/4/97) Uploaded Lesson 9 --- one more to go!
+       (7/28/97) Uploaded Lesson 8 --- two more to go!
+       (7/14/97) Uploaded Lesson 7. Also lightly edited versions
+      of Lessons 1 -- 6. Three more to go!
+       (7/7//97) Uploaded Lessons 1--6 for a Review of Algebra. 
+     
+ 
+   
+  
+
+       
+
+  
+   
+     
+     Site Map  
+     
+     For return visitors who want to jump directly to a topic of
+    interest, here is a listing of the files.  
+
+     
+       Root Directory 
+       
+          mainmpt.pdf  
+       
+       Algebra Directory 
+       
+          mpt_menu.pdf  
+          lesson01.pdf  
+          lesson02.pdf  
+          lesson03.pdf  
+          lesson04.pdf  
+          lesson05.pdf  
+          lesson06.pdf  
+          lesson07.pdf  
+          lesson08.pdf 
+          lesson09.pdf 
+          lesson10.pdf 
+       
+       Games Directory
+       
+          a_qbn1.pdf 
+          a_qbn1j.pdf 
+          gofcalc.pdf 
+          fc01.pdf 
+       
+     
+ 
+   
+  
+
+       
+
+  
+   
+     
+    Downloading    
+    and Mirroring   
+     
+     Should you find it necessary, you can download the tutorial
+    to a local hard disk and use it locally; however, there are some
+    caveats.  
+
+     The tutorial is setup for the Web and so many of the brown links are relative path URL's...they
+    will not work on a local hard disk. Some brown
+    links will work: The ones that simply load a pdf file;
+    it is the links that have a named destination that will
+    not work. All of the green links
+    will work. 
+
+     Additionally, you will lose all messages that pop-up with
+    `funny messages.' All graphics are lost too. 
+
+     These are natural limitations put on the system by the Acrobat
+    application. Loading a file works the same whether on the Web
+    or on a local system; jumping to a named destination in another
+    pdf file requires one set commands for the Web and an entirely
+    different set of commands for a local disk system. It is a bit
+    of a nuisance because the tutorial is available locally at The
+    University of Akron; consequently, I must recompile all files
+    twice, once for the web and again for a local disk system. 
+
+     The tutorial is undergoing constant change; downloading the
+    tutorial immediately outdates it! What you see here is my `first
+    time through.' Over the next year, I'll re-read the entire tutorial,
+    re-write it, add new exercises and examples, more figures, better
+    explanations etc, etc, and, of course, etc. 
+
+     The Web system works very well at The University of Akron---the
+    access time in my office is quite acceptable. Should you be interested,
+    I might consider allowing other universities mirror this
+    site, in this way the tutorial will be a greater pleasure (more
+    than it already is :--) ) to use. 
+
+     Please contact me if you would like to mirror this site.  
+   
+  
+
+     
+
+      
+
+   
+   
+     
+     Acknowledgments  
+     
+    The Algebra tutorials has never properly proof-read  I would
+    like to thanks the following Web Surfers for reporting the "Algebraic
+    Bug" that lived in the lessons. They are Gary M of U.K.,
+    Jeff K of the USA, Eric M of the USA, and Marco of Iceland. Many,
+    many thanks for finding errors and typos; they have all improved
+    the quality of the "Algebra Review
+    in Ten Lessons".dps

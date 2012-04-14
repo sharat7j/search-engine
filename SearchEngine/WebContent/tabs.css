@@ -1,0 +1,81 @@
+input#txtSearchBox {
+    background-color: transparent;
+    border: 3px solid #000000;
+    border-radius: 15px 15px 15px 15px;
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+    width: 600px;
+
+}
+input#btnSubmit
+{
+    border: 0 solid #888888;
+    border-radius: 15px 15px 15px 15px;
+    cursor: pointer;
+    font-family: Geneva,Arial,Helvetica,sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    height: 80px;
+    width: 180px;
+}
+
+
+#searchTextBox span{
+	color: #AAAAAA;
+}
+ol#toc {
+    height: 2em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol#toc a {
+    background: #bdf url(tabs.gif);
+    color: #008;
+    display: block;
+    float: left;
+    height: 2em;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+ol#toc a:hover {
+    background-color: #3af;
+    background-position: 0 -120px;
+}
+
+ol#toc a:hover span {
+    background-position: 100% -120px;
+}
+
+ol#toc li {
+    float: left;
+    margin: 0 1px 0 0;
+}
+
+ol#toc li.current a {
+    background-color: #48f;
+    background-position: 0 -60px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#searchTextBox
+{
+	margin-left:316px;
+	margin-top:168px;
+
+}
+ol#toc li.current span {
+    background-position: 100% -60px;
+}
+
+ol#toc span {
+    background: url(tabs.gif) 100% 0;
+    display: block;
+    line-height: 2em;
+    padding-right: 10px;
+}

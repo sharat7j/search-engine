@@ -1,0 +1,249 @@
+ODP Data Dump Changelog 
+    
+ 
+ 
+ ODP Data Dumps 
+
+ General Description 
+ The  Open Directory Project  distributes
+its data in an  RDF -like 
+ XML  format. These data files are 
+generated on a regular basis and may be downloaded from  this
+directory . 
+
+ Errata 
+ Unfortunately, the data dump format used by the Open Directory Project is
+not optimal. In particular it is much longer than it needs to be, and is not
+in standard RDF format. 
+ Because of this, the format will need to change from time to time. We will
+note the changes in this file until we have a better method for notifying
+users of the changes. 
+
+ Changes 
+
+
+ 2010-02-25 
+ There has been a decision in the release of DMOZ 2.0 that we would
+go back and use the DMOZ 1.0 ontology.  This means that we will no longer deliver
+the 2.0 ontology folder and there will be the single delivery.
+Always watch this file should the editors decide to have new ontology some time
+in the future.  For the timebeing, this is the files as delivered.
+ 
+
+ 2009-11-18 
+ There was some confusion in the 1.0 RDF caused by the new Ontology used
+in DMOZ 2.0.  This caused two Top categories to be present in the structure.rdf.u8
+file.  The first one should have been "Top/World" which had children of all the
+languages.  This has been corrected and World/English has been removed.
+ 
+There is also a change to the 2.0 RDF where all of the isocodes have been replaced
+with the languages used by DMOZ.  This is a preferable solution allowing us the 
+flexibility to change how we use codes without disturbing the output.  It also
+makes it easier on the users of the data, not to have to decipher the code.
+ 
+A further reminder to the fact that if you want Kids_and_Teens or Adult content
+you need to specifically pick up the files that are prefixed with kt- or ad-.  This
+content is not bundled in the structure or content files.
+ 
+
+ 2009-09-25 
+ There is a slight change to the RDF in regards to how multiple
+Kids_and_Teens parameters are used.  In the past these were '/' separated values
+such as <ages>kids/mteens</ages>.  These will now be rendered each within an
+<ages> tag.  It will appear as <ages>kids</ages> and <ages>mteens</ages>.
+ 
+
+ 2009-09-04
+ 
+The RDF now contains the tags.html which displays the tags that are included in the files.
+The attempt is to support all the previous tags with a few changes.
+The explaination below refers to any of the ad- kt- aol- or general files.  These
+are all produced in the same fashion.
+
+Structure.rdf.u8
+<D:charset> is no longer requires since all encoding is utf8 throughout.
+<dispname> may not make it in this migration so may not yet be present.
+<newsGroup> has been changed to "newsgroup" for consistancy
+
+Content.rdf.u8
+<Link1> added in this rdf error by omission
+<mediadate> added in this rdf error by omission
+<type> added in this rdf error by omission
+<ages> added in this rdf error by omission
+<atom> added in this rdf error by omission
+<atomi1> added in this rdf error by omission
+<pdf> added in this rdf error by omission
+<pdf1> added in this rdf error by omission
+<rss> added in this rdf error by omission
+<rss1> added in this rdf error by omission
+<ages> added in this rdf error by omission
+<uksite> this tag has been added with a value of 1 if it is a uksite
+
+ 
+ 2009-08-17
+ 
+As you will see, the Adult content has a separate delivery from the other content delivery in
+a similar way to the method of the Kids_and_Teens.  
+There are many changes to the RDF with the new DMOZ_2.0 in the wings. We
+apologize for any inconvenience to you but it will get better.   The most major
+change is that the Ontology differs in regards to how languages are handled.
+In the past there was inconsistency between the top categories, with languages under
+Top/World/Espa–ol and Kids_and_Teens/International/Espa–ol/ and Adult/World/Deutsch/.
+These have now been changed to the following top categories /Top/es, /Kids_and_Teens/es,
+and /Adult/de.   This gives a more consistant result overall and brings the language
+content more forward.  
+We are delivering two sets of RDF files. The old files are currently in the normal RDF location and
+inside that is a folder dmoz_2.0 which contains the new files.   We prefer that you
+use the new files within dmoz_2.0 since these will be the files used going forward
+and with the launch of 2.0 the old RDF will be sunsetted.   You will also note that
+the file names and content are reordered in both the old and new. 
+There is the following files containing content  
+ad-content.rdf.u8 
+ad-rss.rdf.u8 
+ad-structure.rdf.u8 
+ad-terms.rdf.u8 
+aol-content.rdf.u8 
+aol-rss.rdf.u8 
+aol-structure.rdf.u8 
+aol-terms.rdf.u8 
+kt-content.rdf.u8 
+kt-rss.rdf.u8 
+kt-structure.rdf.u8 
+kt-terms.rdf.u8 
+content.rdf.u8 
+rss.rdf.u8 
+structure.rdf.u8 
+terms.rdf.u8 
+
+ 
+The Adult content is under ad-structure, terms, rss and content. 
+
+ 2004-04-26 
+ In addition to link tags, we now have pdf,
+rss, and atom tags for non-html content. All RSS/Atom feeds
+are validated before we add them to the directory. In the next few weeks,
+you'll see a separate rss.rdf.u8.gz file that will contain only categories
+and rss/atom feeds.
+ 
+
+ 2003-05-29 
+ ExternalPage objects now contain a topic tag that reflects 
+the category this listing belongs in.
+ 
+
+ 2003-05-20 
+ A few new tags have been to the RDF files. There is a tag 
+dispname which gives the "display name" for each category. In addition, 
+several new aol-specific tags have been added: aolsearch , 
+aolshopping , aolkeyword , aoltopictype , and 
+aolcattype .
+ 
+
+ 2003-03-12 
+ More error-checking and filtering on the editor data entry forms
+have been added to prevent UTF-8 and XML character encoding problems. The data
+dumps should now contain no illegal UTF-8 byte sequences, no illegal XML
+characters, and only well-formed XML. Each data dump is now tested for
+errors. The  error report  contains
+specific results for each of these three types of errors. 
+
+ 2002-07-23 
+ 
+Data in the Netscape/ tree is no longer included in the main RDF dump. Instead,
+it is provided in these files: 
+ 
+ netscape-content.rdf.u8.gz 
+ netscape-structure.rdf.u8.gz 
+ netscape-terms.rdf.u8.gz 
+ 
+
+ 2000-11-20 
+ 
+A few additions have been made to the RDF files. There is a tag for altlang
+categories which behaves exactly like the symbolic tags. Tags have also been
+added for mediadate and ages (for Kids_and_Teens) with regards to URLs if these
+qualities exist for each URL.
+ 
+
+ 1999-12-09 
+ The RDF files are going UTF-8. I hope that this will clear up a
+lot of the problems that some users have been having with the format.  If you
+notice any problems, please send mail to truel@dmoz.org. 
+ We will continue to generate the current RDF files until at 
+least January 8, 2000.  We will be generating UTF-8 files periodically until
+that date.  After January 9, all rdf files will be in the UTF-8 character set. 
+ N.B. Some languages may have some incorrect characters. More
+precisely some of our categories do not have a character set 
+associated with them yet, and so I am converting them to UTF-8 as though they
+were encoded in ISO-8859-1.  Please do not send me email if you think
+you know what character set a given language should be in, but only if
+you know what character set the given ODP category is in. 
+
+ 1999-08-25 
+ I have created an eGroups.com mailing list to announce changes
+to the rdf format.  To sign up, fill your email address in the following form: 
+
+ 
+  
+  
+   Subscribe to Announcement group 
+   
+   Enter your e-mail address: 
+   
+   
+     
+     
+     
+    
+     
+   
+   
+   
+     odp-rdf-announce
+    archive 
+   
+   
+   
+    An e-group hosted by 
+     Yahoo! Groups 
+   
+  
+  
+  
+
+ 1999-08-24 
+ Now provide  redirect.rdf.u8.gz  which
+lists categories which have been moved and where they have been moved to. This
+should obviate your need for the  catmv.log.gz  file. 
+ Redirections here are pre-chained. That is if a category has 
+moved many places, the redirection listed is the first one that actually hits
+a category.  If someone moves a directory around and someone else
+creates a directory at one of the intermediate locations, the newcomer is the
+redirection listed. 
+
+ 1999-07-29 
+ Character escaping is being done inside all fields now, not 
+just in Titles and Descriptions. The following four characters are being 
+quoted, so you will have to unquote them when converting to html: 
+ 
+  &  &amp;  
+  <  &lt;  
+  >  &gt;  
+  "  &quot;  
+ 
+ High byte characters and non-printing control characters are
+also being quoted now.  I have decided against utilizing actual character
+quoting (ie. &#21ae;) since supporting full unicode is beyond the
+capabilities of some of our customers.  Instead the hex value of the these
+characters will be presented, and if you wish to convert to unicode, you will
+have to keep track of the charset for the given category. 
+ As an expamle, the byte value of 200 will be presented as
+&xC8; whether that character was from the 8859-1 character set 
+(&#C8; or é or &#C8;) or from 8859-2 (? or &#x010C;)
+or from any other character set. 
+
+ 1999-05-18 
+ 
+Symbolic links that have been separated from the rest of the subcategories
+now have the link type "<symbolic1 ...>". This is exactly analogous
+to "<narrow1 ...>" (for separated subcategories).

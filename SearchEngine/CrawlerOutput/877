@@ -1,0 +1,181 @@
+Irrationality of Sqrt(2) (PRIME) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+	 
+	 
+ 
+	 
+		 
+
+			  
+		 
+		 
+			 
+		 
+		 
+			  
+		 
+	 
+	 
+		 
+			
+		 
+		 
+			
+		 
+		 
+			
+		 
+		 
+			
+		 
+		 
+			
+		 
+	 
+	 
+		 
+			
+				 
+				BROWSE 
+				ALPHABETICALLY 
+				 
+				 
+				  
+				LEVEL: 
+				 
+				  
+				 
+				Elementary 
+				  
+				 
+				Advanced 
+				  
+				 
+				Both 
+				 
+				 
+				INCLUDE TOPICS: 
+				 
+				  
+				 
+				Basic Math 
+				  
+				 
+				Algebra 
+				  
+				 
+				Analysis 
+				  
+				 
+				Biography 
+				  
+				 
+				Calculus 
+				  
+				 
+				Comp Sci 
+				  
+				 
+				Discrete 
+				  
+				 
+				Economics 
+				  
+				 
+				Foundations 
+				  
+				 
+				Geometry 
+				  
+				 
+				Graph Thry 
+				  
+				 
+				History 
+				  
+				 
+				Number Thry 
+				  
+				 
+				Physics 
+				  
+				 
+				Statistics 
+				  
+				 
+				Topology 
+				  
+				 
+				Trigonometry 
+			
+			 
+			 
+			  
+			  
+			 
+		 
+		 
+			 
+		 
+		 
+			The Irrationality of the Square Root of 2
+			  
+			      n general, proving a negative statement such as, ?the square root of two is not rational? can be quite difficult. Often in mathematics, such a statement is proved by contradiction, and that is what we do here. In other words, we want to assume the contrary statement, namely, we want to begin by assuming that the square root of two is rational, and then see what happens. If we find that this assumption leads to an inescapable contradiction, then we will know that this contrary assumption is false ? and we will be able to conclude the statement we are trying to prove. So what does it mean to assume that the square root of two is rational? By the definition of  rational numbers , it means assuming that we can represent the square root of two by a ratio of integers, i.e.,     ...where p and q are each integers. (We don't know what these integers are, but by our assumption they must exist.) If this equation is true, then there is nothing wrong with squaring both sides of the equation, as follows,     We can then multiply both sides of the equation by the quantity q 2 , like this:     Now we want to notice something interesting. According to the  Fundamental Theorem of Arithmetic , each of the integers p and q factors uniquely into primes. That is, each of p and q is just some unique collection of primes multiplied together. Since in the above equation both p and q are squared, that means that each of these primes must occur in pairs, and moreover there must be exactly the same pairs of each of the primes on each side of the equation, else it wouldn't be a true equation. But wait, this can't be! Because ? think about it ? where's the prime that pairs with the two?  There isn't one. Therefore it can't be a true equation, and therefore none of the earlier equations can be true equations either. Therefore the first equation is false, and we have our result: the assumption that the square root of two is a rational number must be false, so the contrary statement is true ? the square root of two is an irrational number. This result, among the most elegant in mathematics, was known to the Greeks and is therefore quite ancient. A slightly more general argument along the same lines shows that all square roots of integers are irrational, except when the integers are perfect squares (1, 4, 9, 16, 25, etc.). Can you think of how to construct an argument to determine the rationality or irrationality of cube roots, fourth roots, and so on?  ADDENDUM  Professor Richard Palais of Brandeis University writes: The (classical) proof you give of the irrationality of the square root of two is clear and elegant enough, but hardly the shortest or most revealing. Professor Palais then relates the following beautiful proof, beautiful not only for its elegance but because it generalizes very easily. To begin with, we observe that if  is rational, then there is some positive integer q such that  q ?   is an integer.  Since the positive integers are well ordered, we may suppose that q is the smallest such number. We next observe that since  1 <  < 2,  then   ? 1 < 1,  and consequently  q ? ( ? 1) = (q ?  ? q )  is less than q.  Let us call this new number r, and observe that it too is a positive integer.  But we now have  r ?   is also an integer, since  r ?  = (q ?  ? q ) ?    = (2q ? q ? ).  In short, r is a positive integer less than q and  r ?   is an integer.  But we said that q was the smallest positive integer with this property, and so we have a contradiction. The nice thing about this proof is how easily it generalizes. Let us denote by  the integer part of . For example, since the square root of 5 is approximately 2.236, the integer part is 2.  For any n that is not a perfect square, we may prove that  is irrational exactly as above by considering  q ? ( ? ).   On the other hand, if n is a perfect square (so that   = )  then there is no contradiction. For the more advanced reader, Professor Palais adds that if x is a rational but not integral zero of a monic integer polynomial of degree d, let q be the least positive integer so that qx j  is integral for all j < d. Then, considering  q(x ? n)  where n is an integer with  n < x < n + 1 , we get a contradiction. In other words, we have proved that every rational ?algebraic integer? is an integer. Platonic Realms is grateful to Professor Palais for his valuable contribution to this article.
+		 
+		 
+			 
+		 
+		 
+		    			      
+			
+				  
+				  
+			
+
+			 
+		 
+	 
+		 
+			 
+		 
+		 
+			 
+		 
+		 
+			 
+			 
+			 
+			
+			 
+			 
+			 
+			  
+			
+			  
+			 
+		 
+		 
+			
+		 
+		 
+			 
+		 
+	 
+	 
+ 
+
+ 
+	 
+		 
+			    HOME  |  ABOUT  |  CONTACT  |  AD INFO  |  PRIVACY   Copyright © 1997-2011, Math Academy Online? / Platonic Realms?. Except where otherwise prohibited, material on this site may be printed for personal classroom use without permission by students and instructors for non-profit, educational purposes only. All other reproduction in whole or in part, including electronic reproduction or redistribution, for any purpose, except by express written agreement is strictly prohibited. Please send comments, corrections, and enquiries using our  contact page .

@@ -1,0 +1,39 @@
+ChefMoz RDF Files 
+    
+    
+ 
+
+ 
+
+ 
+ 
+   
+       part of the  open directory project 
+   
+ 
+ 
+   
+     about chef moz 
+    |
+     email staff 
+   
+ 
+ 
+
+ Chef Moz RDF files 
+ RDF dumps of the  ChefMoz  database are available for download. Note that these can be quite large. 
+
+ Changes to the format of the RDF files are documented  here . Be sure to check it frequently. 
+
+ 
+ Use of the Chef Moz data is subject to the terms of the Chef Moz License, which can be read at  http://chefmoz.org/license.html 
+ The ChefMoz attribution statement may be found  here .
+ 
+
+ We provide some  documentation  of the file format.  For more information, see the  RDF specification  at W3.
+
+ 
+ chefmoz.rest.rdf.gz [ http ]
+
+ chefmoz.guides.rdf.gz [ http ]
+ chefmoz.editors.rdf.gz [ http ]

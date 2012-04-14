@@ -1,0 +1,181 @@
+Fundamental Theorem of Arithmetic (PRIME) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+	 
+	 
+ 
+	 
+		 
+
+			  
+		 
+		 
+			 
+		 
+		 
+			  
+		 
+	 
+	 
+		 
+			
+		 
+		 
+			
+		 
+		 
+			
+		 
+		 
+			
+		 
+		 
+			
+		 
+	 
+	 
+		 
+			
+				 
+				BROWSE 
+				ALPHABETICALLY 
+				 
+				 
+				  
+				LEVEL: 
+				 
+				  
+				 
+				Elementary 
+				  
+				 
+				Advanced 
+				  
+				 
+				Both 
+				 
+				 
+				INCLUDE TOPICS: 
+				 
+				  
+				 
+				Basic Math 
+				  
+				 
+				Algebra 
+				  
+				 
+				Analysis 
+				  
+				 
+				Biography 
+				  
+				 
+				Calculus 
+				  
+				 
+				Comp Sci 
+				  
+				 
+				Discrete 
+				  
+				 
+				Economics 
+				  
+				 
+				Foundations 
+				  
+				 
+				Geometry 
+				  
+				 
+				Graph Thry 
+				  
+				 
+				History 
+				  
+				 
+				Number Thry 
+				  
+				 
+				Physics 
+				  
+				 
+				Statistics 
+				  
+				 
+				Topology 
+				  
+				 
+				Trigonometry 
+			
+			 
+			 
+			  
+			  
+			 
+		 
+		 
+			 
+		 
+		 
+			The Fundamental Theorem of Arithmetic
+			  
+			      et us begin by noticing that, in a certain sense, there are two kinds of  natural number : composite numbers, and prime numbers. Composite numbers are numbers we get by multiplying together other numbers. For example,  6 = 2 ? 3.  We say that 2 and 3 are factors of 6 (or, equivalently, that they are divisors of 6). Some numbers, however, have no factors other than themselves and one. Such numbers are called prime, and there are infinitely many of these.    Primes = { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, ... }   (By convention, we don?t consider 1 to be prime ? it has a special status all its own.) The Fundamental Theorem of Arithmetic (FTA) tells us something important about the relationship between composite numbers and prime numbers. It is usually stated as follows: Every natural number is either prime or can be uniquely factored as a product of primes in a unique way. What does this mean? Let?s look at an example.   60 = 2 ? 2 ? 3 ? 5  The FTA tells us that there is no way of factoring the number 60 into different primes than these ? that this factorization is unique. (It?s true that we can factor 60 into, for example,  4 ? 15,  but then 4 and 15 aren?t prime, and if we factor them we?ll discover that we get right down to the same primes listed above.) One way of interpreting the FTA is to say that the prime numbers are the building blocks, so to speak the bones, out of which the set of natural numbers is built. In the field of mathematics known as number theory (which Karl Gauss, the greatest mathematician since antiquity, called the ?Queen of Mathematics?), this business of the structure of the natural numbers is a central concern. In this theory, many beautiful things about the natural numbers are proved. As an exercise, it can be entertaining to write down all the natural numbers up to, say, 60 or so, and next to each one write down its prime factorization, or the word ?prime? if it is prime. Doing this will greatly increase your appreciation of the underlying ?structure? of the numbers we use every day. We?ll get you started:      2 =  prime    3 =  prime    4 =  2 ? 2    5 =  prime    6 =  2 ? 3    7 =  prime    8 =  2 ? 2 ? 2    9 =  3 ? 3    10 =  2 ? 5    11 =  prime . . .    
+		 
+		 
+			 
+		 
+		 
+		    			      
+			
+				  
+				  
+			
+
+			 
+		 
+	 
+		 
+			 
+		 
+		 
+			 
+		 
+		 
+			 
+			 
+			 
+			
+			 
+			 
+			 
+			  
+			
+			  
+			 
+		 
+		 
+			
+		 
+		 
+			 
+		 
+	 
+	 
+ 
+
+ 
+	 
+		 
+			    HOME  |  ABOUT  |  CONTACT  |  AD INFO  |  PRIVACY   Copyright © 1997-2011, Math Academy Online? / Platonic Realms?. Except where otherwise prohibited, material on this site may be printed for personal classroom use without permission by students and instructors for non-profit, educational purposes only. All other reproduction in whole or in part, including electronic reproduction or redistribution, for any purpose, except by express written agreement is strictly prohibited. Please send comments, corrections, and enquiries using our  contact page .
