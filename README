@@ -1,0 +1,27 @@
+In this project, we will design, implement and benchmark a search engine tailored
+for Sports, Science, Shopping and Health selected from the DMOZ.
+Module 1: CRAWLING module:
+For crawling implement two crawlers, selected from: depth-first, fish-search, shark-
+search. When ordering the decedents - give precedence to nodes that can be reached
+from multiple paths. You should target to crawl a minimum of 1000 pages and a
+maximum of 2000 pages.
+Module 2: Indexing module:
+You can use either Lucene or your own indexing method. Build an index for the
+crawled documents.
+Module 3: LINK ANALYSIS module:
+Implement any of the following algorithms: page-ranking, topic-based page ranking,
+SALSA or HITS) One algorithm implementation is required for link analysis. When
+building your web graph, generate virtual hyperlinks between any two pages that
+are decedents of a common node reached through two different paths (some
+originate in two different topics, but if they originate in the same topic it is
+acceptable to generate hyperlinks too). Measure the largest number of outgoing
+links in your graph and the largest number of ingoing links. Develop also a method
+of finding similar pages and their "fingerprint" and generate additional virtual links.
+Module 4: Retrieval module:
+Use the link analysis to combine the results with at least two additional retrieval
+models, e.g .vector model and probabilistic model. Generate a list of ranked
+documents as well as their relevance scores.
+Module 5: Query processing module:
+Read the query from an interface that you build – and returns the relevant
+documents. Also expose the same results obtained by Google and Bing on the same
+interface.
